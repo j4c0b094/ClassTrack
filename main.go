@@ -1,9 +1,11 @@
 package main
 
 import (
-	"hwgui/cmd"
+	"ClassTrack/cmd"
+	"fmt"
 )
 
 func main() {
 	cmd.Execute()
+	fmt.Println("Main Execution")
 }

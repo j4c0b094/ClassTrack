@@ -10,7 +10,6 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "ClassTrack CLI",
 	Short: "ClassTrack provides a terminal interface for logging tasks",
-	Long:  ``, //TODO -- Update
 	Run: func(cmd *cobra.Command, args []string) {
 		// Do Stuff Here
 	},
